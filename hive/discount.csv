@@ -1,0 +1,38 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/opt/hive/lib/log4j-slf4j-impl-2.6.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/opt/hadoop-2.7.4/share/hadoop/common/lib/slf4j-log4j12-1.7.10.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+Connecting to jdbc:hive2://localhost:10000
+Connected to: Apache Hive (version 2.3.2)
+Driver: Hive JDBC (version 2.3.2)
+Transaction isolation: TRANSACTION_REPEATABLE_READ
+WARNING: Hive-on-MR is deprecated in Hive 2 and may not be available in the future versions. Consider using a different execution engine (i.e. spark, tez) or using Hive 1.X releases.
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/opt/hive/lib/log4j-slf4j-impl-2.6.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/opt/hadoop-2.7.4/share/hadoop/common/lib/slf4j-log4j12-1.7.10.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+Execution log at: /tmp/root/root_20210327131926_28517a91-c192-4049-b324-d8a6b6928374.log
+2021-03-27 13:19:34	Starting to launch local task to process map join;	maximum memory = 477626368
+2021-03-27 13:19:36	Dump the side-table for tag: 1 with group count: 12623 into file: file:/tmp/root/9b269488-11d4-4b4e-befb-b5aed0e556ee/hive_2021-03-27_13-19-26_477_8288819463868917241-4/-local-10005/HashTable-Stage-2/MapJoin-mapfile01--.hashtable
+2021-03-27 13:19:36	Uploaded 1 File to: file:/tmp/root/9b269488-11d4-4b4e-befb-b5aed0e556ee/hive_2021-03-27_13-19-26_477_8288819463868917241-4/-local-10005/HashTable-Stage-2/MapJoin-mapfile01--.hashtable (441266 bytes)
+2021-03-27 13:19:36	End of local task; Time Taken: 2.478 sec.
+category,average_discount
+BREAKFAST,37.348462664714496
+BUBBLE TEA,37.53102640822167
+CAKE,37.77195249738037
+DIMSUM,37.74552987352813
+FAST FOOD,38.14694551458448
+ICECREAM,38.08318936295843
+JAPANESE FOOD,38.21828119548785
+NOODLES,38.00615288351236
+SEAFOOD,38.12952295229523
+SHABU,38.344620440709015
+SOMTAM,38.09896591145292
+STEAK,38.027670074021856
+THAI FOOD,37.827958957090395
+WESTERN FOOD,37.93014696550499
+14 rows selected (13.602 seconds)
+Beeline version 2.3.2 by Apache Hive
+Closing: 0: jdbc:hive2://localhost:10000
