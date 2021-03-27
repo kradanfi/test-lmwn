@@ -1,0 +1,28 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/opt/hive/lib/log4j-slf4j-impl-2.6.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/opt/hadoop-2.7.4/share/hadoop/common/lib/slf4j-log4j12-1.7.10.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+Connecting to jdbc:hive2://localhost:10000
+Connected to: Apache Hive (version 2.3.2)
+Driver: Hive JDBC (version 2.3.2)
+Transaction isolation: TRANSACTION_REPEATABLE_READ
+WARNING: Hive-on-MR is deprecated in Hive 2 and may not be available in the future versions. Consider using a different execution engine (i.e. spark, tez) or using Hive 1.X releases.
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/opt/hive/lib/log4j-slf4j-impl-2.6.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/opt/hadoop-2.7.4/share/hadoop/common/lib/slf4j-log4j12-1.7.10.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+Execution log at: /tmp/root/root_20210327131944_bb891685-4d5b-448a-91a0-087fa6dcdfa4.log
+2021-03-27 13:19:49	Starting to launch local task to process map join;	maximum memory = 477626368
+2021-03-27 13:19:52	Dump the side-table for tag: 1 with group count: 12623 into file: file:/tmp/root/b3b94b64-30f5-4dee-b0f3-4985c9fdcef1/hive_2021-03-27_13-19-44_032_4789092073203795833-6/-local-10005/HashTable-Stage-2/MapJoin-mapfile11--.hashtable
+2021-03-27 13:19:52	Uploaded 1 File to: file:/tmp/root/b3b94b64-30f5-4dee-b0f3-4985c9fdcef1/hive_2021-03-27_13-19-44_032_4789092073203795833-6/-local-10005/HashTable-Stage-2/MapJoin-mapfile11--.hashtable (342744 bytes)
+2021-03-27 13:19:52	End of local task; Time Taken: 2.559 sec.
+cooking_bin,count_cooking_bin
+1,136569
+2,208304
+3,30965
+4,19523
+4 rows selected (11.21 seconds)
+Beeline version 2.3.2 by Apache Hive
+Closing: 0: jdbc:hive2://localhost:10000
